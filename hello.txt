@@ -15,3 +15,4 @@ hello kunanshen! hello git!
 hello kunanshen! hello git!
 hello kunanshen! hello git!
 hello kunanshen! hello git! master test
+hello kunanshen! hello git! hot-fix test
