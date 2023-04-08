@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\工作\\上海数图\\技术学习\\git-demo\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "E:\\工作\\上海数图\\技术学习\\work\\git-demo\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "E:\\工作\\上海数图\\技术学习\\git-demo\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "E:\\工作\\上海数图\\技术学习\\work\\git-demo\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\zlw\\.nuget\\packages\\",
-      "outputPath": "E:\\工作\\上海数图\\技术学习\\git-demo\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "E:\\工作\\上海数图\\技术学习\\work\\git-demo\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

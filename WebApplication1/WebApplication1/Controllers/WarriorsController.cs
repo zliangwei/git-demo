@@ -12,9 +12,16 @@ namespace WebApplication1.Controllers
     public class WarriorsController : ControllerBase
     {
         //我是库男神，这是我的新项目
+        //我就是我，颜色不一样的烟火!!!
         public WarriorsController(string Code)
         {
             IActionResult _actionResult;
+        }
+
+        public class Person
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
         }
     }
 }
