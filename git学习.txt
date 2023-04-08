@@ -57,13 +57,15 @@ git push 远程仓库地址 --tags 推送所有标签到远程仓库
 git push 远程仓库地址 --delete tag名 删除远程仓库中的某个标签
 
 
-git修改上一次提交，比如忘记添加推送某个文件，不需要生成新的版本号就可以完成。
+git修改上一次提交，比如忘记添加推送某个文件，不需要生成新的版本号就可以完成。(TortoiseGit)
 
 
 https://docs.microsoft.com/zh-cn/visualstudio/version-control/?WT.mc_id=visualstudio_git_aka_vsgitdocs&view=vs-2022
 
 forthree@curry.com
 kunanshen
+
+ 2019ananwan
 
 zhulw@pharmadl.com
 kelaiG6
