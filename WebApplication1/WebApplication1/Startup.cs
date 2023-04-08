@@ -50,6 +50,8 @@ namespace WebApplication1
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();  //使用静态资源
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
