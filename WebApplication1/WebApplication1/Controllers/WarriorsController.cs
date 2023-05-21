@@ -28,7 +28,7 @@ namespace WebApplication1.Controllers
         {
             #region
             //冲突解决模拟
-            Hobby hobby = new Hobby();
+            Hobby hobby = new Hobby { Game="NBA2KOL2", BaketBall="斯伯丁"};
             #endregion
 
             string str = "今天" + "明天";
