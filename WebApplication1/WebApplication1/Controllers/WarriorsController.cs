@@ -24,9 +24,10 @@ namespace WebApplication1.Controllers
             public string Name { get; set; }
         }
 
-        public interface Login 
+        public class Login 
         {
-        
+            string str = "今天" + "明天";
+            Person person = new Person { Id=1,Name="大佐"};
         }
     }
 }
