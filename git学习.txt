@@ -59,6 +59,10 @@ git push 远程仓库地址 --delete tag名 删除远程仓库中的某个标签
 
 git修改上一次提交，比如忘记添加推送某个文件，不需要生成新的版本号就可以完成。(TortoiseGit)
 
+visio studio中使用git教程:
+当你的本地代码没有保持和代码仓库最新代码一致时，提交可能会把同事的代码冲掉，所以先将自己的所有改动储藏起来(暂存)，将本地代码拉取到最新的版本，
+然后再将储藏起来的代码进行合并冲突再提交推送
+
 
 https://docs.microsoft.com/zh-cn/visualstudio/version-control/?WT.mc_id=visualstudio_git_aka_vsgitdocs&view=vs-2022
 

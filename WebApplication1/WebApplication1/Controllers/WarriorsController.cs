@@ -24,9 +24,19 @@ namespace WebApplication1.Controllers
             public string Name { get; set; }
         }
 
-        public interface Login 
+        public class Login 
         {
-        
+            #region
+            //冲突解决模拟
+            Hobby hobby = new Hobby();
+            #endregion
+        }
+
+        public class Hobby :Person
+        {
+            public string Game { get; set; }
+            public string BaketBall { get; set; }
+
         }
     }
 }
