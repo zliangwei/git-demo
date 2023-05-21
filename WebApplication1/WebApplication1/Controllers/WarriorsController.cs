@@ -26,8 +26,22 @@ namespace WebApplication1.Controllers
 
         public class Login 
         {
+            #region
+            //冲突解决模拟
+            Hobby hobby = new Hobby();
+            #endregion
+
             string str = "今天" + "明天";
-            Person person = new Person { Id=1,Name="大佐"};
+            Person person = new Person { Id = 1, Name = "大佐" };
+
+        }
+
+
+        public class Hobby : Person
+        {
+            public string Game { get; set; }
+            public string BaketBall { get; set; }
+
         }
     }
 }
