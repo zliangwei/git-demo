@@ -34,6 +34,9 @@ namespace WebApplication1.Controllers
             string str = "今天" + "明天";
             Person person = new Person { Id = 1, Name = "大佐" };
 
+            Person son = new Hobby(); //里氏替换原则
+           
+
         }
 
 
