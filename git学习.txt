@@ -77,6 +77,9 @@ kelaiG6
 git push错误：failed to push some refs to
 https://blog.csdn.net/rocling/article/details/82956402
 
+git提交本地库，此时远程库有了新的版本，此时推送会导致推送拉取失败:
+解决方法: cmd进入项目目录执行 git pull --rebase  之后再推送
+
 
 
 13120705726  注销
