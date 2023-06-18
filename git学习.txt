@@ -63,6 +63,10 @@ visio studio中使用git教程:
 当你的本地代码没有保持和代码仓库最新代码一致时，提交可能会把同事的代码冲掉，所以先将自己的所有改动储藏起来(暂存)，将本地代码拉取到最新的版本，
 然后再将储藏起来的代码进行合并冲突再提交推送
 
+git无法push到远程分支/无法从远程分支中拉取:
+git如果和其他人共用一个分支，出现共同的修改时，可能出现代码无法push到远程分支的情况，这时需要将远程分支的代码进行拉取,但git pull可能无法进行拉取，
+此时可以使用git pull 代码库名称 分支名 --rebase,即可将远程分支的代码拉取到本地，git status 查看当前的分支状态，是否出现冲突，如果没有，可以继续push
+
 
 https://docs.microsoft.com/zh-cn/visualstudio/version-control/?WT.mc_id=visualstudio_git_aka_vsgitdocs&view=vs-2022
 
